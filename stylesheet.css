@@ -140,3 +140,13 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+/* Publication thumbnails */
+.tdimg img,
+.paper-thumb {
+  display: block;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  border-radius: 6px; /* optional */
+}
+
