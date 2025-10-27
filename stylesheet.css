@@ -149,4 +149,13 @@ span.highlight {
   height: auto;
   border-radius: 6px; /* optional */
 }
-
+/* Paper title styling */
+papertitle, a papertitle {
+  font-weight: 700;          /* make it bold */
+}
+a papertitle {
+  text-decoration: none;     /* no underline by default */
+}
+a:hover papertitle {
+  text-decoration: underline;/* underline on hover (nice UX) */
+}
